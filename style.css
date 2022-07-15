@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('bg.jpg') no-repeat center center/cover;
+   height: 100vh;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 3vw;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+#book:hover{
+    margin-left: 45px;
+}
+nav ul li a:hover, nav ul li button:hover{
+    border: 1px solid #00000036;
+   color:#00000036 ;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+nav ul li  button {
+    margin-top: -2px;
+    margin-left: 3vw;
+    font-size: 22px;
+    cursor: pointer;
+    background-color:#00000036 ;
+    color: white;
+    border: 1px solid #00000036;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    margin-left: 40vw;
+    margin-top: 25px;
+    display: flex;
+    
+}
+
+.navbar {
+    background-color: #00000036;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.contact p:hover{
+    text-decoration: underline;
+}
+.textimg h1{
+    position: absolute;
+    top: 40vh;
+    font-weight: bolder;
+    font-size: 50px;
+    border: 2px solid white;
+    width: 690px;
+    left: 25vw;
+    display: flex;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.textimg button{
+    position: absolute;
+    top: 50vh;
+    border: 2px solid white;
+   font-size: 20px;
+    left: 33vw;
+margin-left: 150px;
+border-radius: 20px;
+padding: 3px;
+cursor: pointer;
+}
+.textimg button a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 90px;
+    border: 7px solid black;
+    padding: 2px;
+
+}
+.textimg pre{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    top: 92vh;
+  
+}
+.vision h1{
+margin-top: 700px;
+text-align: center;
+font-size: 35px; 
+}
+.vision{
+    background: url('bg2.jpg') no-repeat center center/cover;
+}
+.us{
+    display: flex;
+   
+    justify-content:space-between;
+}
+.about{
+    display: flex;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+.arpanimg img{
+    margin-right: 40px;
+}
+.post h1{
+    text-align: center;
+    font-size: 35px; 
+    margin-top: 35px;
+}
+.item{
+    border: 2px solid black;
+    margin-left: 40px;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    height: 420px;
+    line-height: 30px;
+}
+.items{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.item button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.item button:hover{
+    zoom: 1.1;
+}
+footer {
+    background-color: black;
+    color: white;
+    /* height: 40px; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.about{
+    width: 400px;
+}
+.see a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.galery h1{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 35px;
+}
+.img1{
+    display: block;
+    margin: auto;
+    transform: translate(65vw);
+    animation: slide1 6s 3s forwards ease-in-out;
+}
+.img2{
+    display: block;
+    margin: auto;
+    transform: translate(-100vw);
+    animation: slide2 18s 1s forwards ease-in-out;
+}
+.img3{
+    display: block;
+    margin: auto;
+    transform: translate(-113vw);
+    animation: slide3 14s 9s forwards ease-in-out;
+}
+
+.img4{
+    display: block;
+    margin: auto;
+    transform: translate(-162vw);
+    animation: slide4 18s 15s forwards ease-in-out;
+}
+
+.img5{
+    display: block;
+    margin: auto;
+    transform: translate(-200vw);
+    animation: slide5 12s 20s forwards ease-in-out;
+} 
+.images{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    z-index: -1;
+    margin-top: 30px;
+}
+@keyframes slide1 {
+    0%{
+        transform: translate(65vw);
+    }
+    100%{
+        transform: translate(200vw);
+    }
+   
+}
+ @keyframes slide2 {
+    0%{
+        transform: translate(-100vw);
+    }
+    100%{
+        transform: translate(120vw);
+    }
+    }
+
+
+@keyframes slide3 {
+    0%{
+        transform: translate(-108vw);
+    }
+   
+    100%{
+        transform: translate(82vw);
+
+    }
+}
+
+@keyframes slide4 {
+    0%{
+        transform: translate(-162vw);
+    }
+   
+    100%{
+        transform: translate(140vw);
+    }
+}
+
+@keyframes slide5 {
+    0%{
+        transform: translate(-200vw);
+    }
+    100%{
+        transform: translate(-78vw);
+    }
+} 
+footer svg{
+    margin-top: -80px;
+    margin-left: 1px;
+}
+.face{
+    margin-bottom: 10px;
+}
+.insta, .whats{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.box h1{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.box{
+    margin-left: 70px;
+    width: 90vw;
+    height: 700px;
+    margin-top: 100px;
+    padding: 10px 10px;
+    background-color: beige;
+}
+.box p{
+    width: 600px;
+    font-size: 20px;
+    padding: 5px 20px;
+    line-height: 30px;
+}
+.content{
+    display: flex;
+    margin-top: 40px;    
+}
+.content img{
+    margin-left: 160px;
+
+}
+.open-button {
+    background-color: #555;
+    color: white;
+    /* padding: 16px 20px; */
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    border: 2px solid #555;
+    width: 80px;
+    font-size: 20px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+ 
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  #arpanspeed{
+    display: none;
+  }
